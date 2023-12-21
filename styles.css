@@ -50,12 +50,17 @@ h6 {
   font-weight: 600;
 }
 
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .nav-links li {
   font-family: "Open Sans", sans-serif;
   display: inline-block;
   color: #1a1b1f;
   opacity: 0.6;
-  margin-left: 3rem;
+  margin: 0 2rem;
   font-weight: 300;
 }
 
@@ -144,5 +149,67 @@ h6 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
+}
+
+.contact-form {
+  margin-top: 2rem;
+}
+
+label {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+input {
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-top: 0.25rem;
+  font-weight: 300;
+}
+
+input[type="submit"] {
+  font-weight: 700;
+  width: 50%;
+}
+
+textarea {
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-top: 0.25rem;
+}
+
+.contact-name,
+.contact-email,
+.contact-message,
+.contact-submit {
+  margin-bottom: 1.5rem;
+}
+.contact-submit {
+  text-align: center;
+}
+
+/* Footer */
+
+.footer-link {
+  padding: 1.5rem 3rem;
+}
+
+.footer-link ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-link li {
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  color: #1a1b1f;
+  opacity: 0.6;
+  margin: 0 2rem;
+  font-weight: 300;
 }
