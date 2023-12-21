@@ -1,9 +1,9 @@
-.main-image-text {
-  background-image: url(./assets/main-background.jpeg);
-  height: 90vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+/* Navbar */
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
 }
 
 .nav-name {
@@ -16,4 +16,26 @@
 
 li {
   display: inline-block;
+  margin-left: 3rem;
+}
+
+/* Hero */
+
+.main-image-text {
+  background-image: url(./assets/main-background.jpeg);
+  height: 85vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 50% 75%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-image-text p {
+  position: absolute;
+  top: 25%;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.1rem;
+  padding: 0 3rem;
 }
