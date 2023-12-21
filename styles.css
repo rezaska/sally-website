@@ -1,22 +1,62 @@
+/* General styles */
+
+p {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.125rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.375rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5,
+h6 {
+  font-size: 1rem;
+}
+
 /* Navbar */
 
 .main-nav {
   display: flex;
   justify-content: space-between;
-  padding: 0 3rem;
+  padding: 1.5rem 3rem;
 }
 
 .nav-name {
-  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  color: #1a1b1f;
+  opacity: 0.6;
+  font-weight: 600;
 }
 
-.nav-links {
+.nav-links li {
+  font-family: "Open Sans", sans-serif;
   display: inline-block;
-}
-
-li {
-  display: inline-block;
+  color: #1a1b1f;
+  opacity: 0.6;
   margin-left: 3rem;
+  font-weight: 300;
 }
 
 /* Hero */
@@ -37,5 +77,72 @@ li {
   top: 25%;
   font-family: "Source Sans 3", sans-serif;
   font-size: 1.1rem;
-  padding: 0 3rem;
+  width: 40%;
+}
+
+/* Work Section */
+
+.my-work-section {
+  padding: 3rem;
+}
+
+.my-work-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.my-works {
+  display: flex;
+  justify-content: space-between;
+  height: 460px;
+}
+
+.projects {
+  width: 30%;
+}
+
+.projects h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+.projects.ux {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/ux-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.projects.industrial {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/industrial-design-background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.projects.personal {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/personal-project-background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* Contact form section */
+
+.contact-form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
 }
