@@ -289,4 +289,8 @@ textarea {
 
 .project-text {
   text-align: center;
+  color: #1a1b1f;
+  opacity: 0.6;
+  font-weight: 300;
+  text-decoration: none;
 }
