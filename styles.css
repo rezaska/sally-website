@@ -40,6 +40,21 @@ html {
   scroll-padding-top: 140px;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+footer {
+  height: 50px;
+}
+
 /* Navbar */
 
 .main-nav {
@@ -126,13 +141,17 @@ html {
   margin: 0;
 }
 
+.my-projects a {
+  color: white;
+  text-decoration: none;
+}
+
 .my-projects.ux {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("./assets/ux-background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: white;
 }
 
 .my-projects.industrial {
@@ -141,7 +160,6 @@ html {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: white;
 }
 
 .my-projects.personal {
@@ -150,7 +168,6 @@ html {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: white;
 }
 
 /* Contact form section */
@@ -238,10 +255,14 @@ textarea {
 .footer-link li {
   font-family: "Open Sans", sans-serif;
   display: inline-block;
+  margin: 0 2rem;
+}
+
+.footer-link a {
   color: #1a1b1f;
   opacity: 0.6;
-  margin: 0 2rem;
   font-weight: 300;
+  text-decoration: none;
 }
 
 /* UX Page */
