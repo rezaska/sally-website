@@ -292,5 +292,8 @@ textarea {
   color: #1a1b1f;
   opacity: 0.6;
   font-weight: 300;
+}
+
+.project a {
   text-decoration: none;
 }
