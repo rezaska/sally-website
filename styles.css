@@ -114,11 +114,11 @@ html {
   height: 460px;
 }
 
-.projects {
+.my-projects {
   width: 30%;
 }
 
-.projects h3 {
+.my-projects h3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,7 +126,7 @@ html {
   margin: 0;
 }
 
-.projects.ux {
+.my-projects.ux {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("./assets/ux-background.jpg");
   background-size: cover;
@@ -135,7 +135,7 @@ html {
   color: white;
 }
 
-.projects.industrial {
+.my-projects.industrial {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("./assets/industrial-design-background.jpeg");
   background-size: cover;
@@ -144,7 +144,7 @@ html {
   color: white;
 }
 
-.projects.personal {
+.my-projects.personal {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("./assets/personal-project-background.jpeg");
   background-size: cover;
@@ -242,4 +242,30 @@ textarea {
   opacity: 0.6;
   margin: 0 2rem;
   font-weight: 300;
+}
+
+/* UX Page */
+
+.ux-page-title {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects .project {
+  width: 50%;
+  padding: 0 3rem;
+}
+
+.project-image img {
+  width: 100%;
+}
+
+.project-text {
+  text-align: center;
 }
