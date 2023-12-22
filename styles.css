@@ -63,10 +63,14 @@ html {
 .nav-links li {
   font-family: "Open Sans", sans-serif;
   display: inline-block;
-  color: #1a1b1f;
-  opacity: 0.6;
   margin: 0 2rem;
   font-weight: 300;
+}
+
+.nav-links a {
+  color: #1a1b1f;
+  opacity: 0.6;
+  text-decoration: none;
 }
 
 /* Hero */
