@@ -45,7 +45,7 @@ html {
 .main-nav {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 3rem;
+  padding: 1rem 3rem;
 }
 
 .nav-name {
@@ -204,10 +204,29 @@ textarea {
   text-align: center;
 }
 
+/* About page */
+
+.about-container {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.about-image img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.about-image,
+.about-text {
+  padding: 1rem;
+}
+
 /* Footer */
 
 .footer-link {
-  padding: 1.5rem 3rem;
+  padding: 1rem 3rem;
 }
 
 .footer-link ul {
