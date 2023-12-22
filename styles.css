@@ -48,11 +48,12 @@ html {
   padding: 1rem 3rem;
 }
 
-.nav-name {
+.nav-name a {
   font-family: "Open Sans", sans-serif;
   color: #1a1b1f;
   opacity: 0.6;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .nav-links {
