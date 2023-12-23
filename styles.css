@@ -55,6 +55,10 @@ footer {
   height: 50px;
 }
 
+.wrapper {
+  padding: 0 3rem;
+}
+
 /* Navbar */
 
 .main-nav {
@@ -112,10 +116,6 @@ footer {
 }
 
 /* Work Section */
-
-.my-work-section {
-  padding: 3rem;
-}
 
 .my-work-header {
   display: flex;
@@ -288,7 +288,6 @@ textarea {
 }
 
 .project-text {
-  text-align: center;
   color: #1a1b1f;
   opacity: 0.6;
   font-weight: 300;
@@ -296,4 +295,8 @@ textarea {
 
 .project a {
   text-decoration: none;
+}
+
+.detail {
+  padding: 0 1rem;
 }
