@@ -286,13 +286,7 @@ textarea {
   padding: 0 3rem;
 }
 
-.project-image img {
-  width: 100%;
-}
-
 .project-text {
-  color: #1a1b1f;
-  opacity: 0.6;
   font-weight: 300;
 }
 
