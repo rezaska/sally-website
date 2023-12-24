@@ -294,6 +294,10 @@ textarea {
   text-decoration: none;
 }
 
-.detail {
+.project-detail {
+  margin: 3rem 0;
+}
+
+.point {
   padding: 0 1rem;
 }
