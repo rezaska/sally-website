@@ -246,10 +246,6 @@ textarea {
 
 /* Footer */
 
-.footer-link {
-  padding: 1rem 3rem;
-}
-
 .footer-link ul {
   display: flex;
   justify-content: flex-end;
@@ -266,6 +262,13 @@ textarea {
   opacity: 0.6;
   font-weight: 300;
   text-decoration: none;
+}
+
+.footer-info,
+.footer-info a {
+  color: #1a1b1f;
+  opacity: 0.6;
+  font-weight: 300;
 }
 
 /* UX Page */
@@ -288,6 +291,7 @@ textarea {
 
 .project-text {
   font-weight: 300;
+  margin-bottom: 5rem;
 }
 
 .project a {
