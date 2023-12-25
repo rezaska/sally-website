@@ -304,3 +304,14 @@ textarea {
 .point {
   padding: 0 1rem;
 }
+
+/* Carousel */
+.carousel-image {
+  height: 700px;
+  object-fit: cover;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: rgba(26, 27, 31, 0.6);
+}
