@@ -273,7 +273,7 @@ textarea {
 
 /* UX Page */
 
-.ux-page-title {
+.page-title {
   text-align: center;
   margin: 3rem 0;
 }
@@ -291,7 +291,6 @@ textarea {
 
 .project-text {
   font-weight: 300;
-  margin-bottom: 5rem;
 }
 
 .project a {
