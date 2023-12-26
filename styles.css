@@ -72,8 +72,7 @@ footer {
 
 .nav-name a {
   font-family: "Open Sans", sans-serif;
-  color: #1a1b1f;
-  opacity: 0.6;
+  color: rgba(26, 27, 31, 0.6);
   font-weight: 600;
   text-decoration: none;
 }
@@ -91,8 +90,7 @@ footer {
 }
 
 .nav-links a {
-  color: #1a1b1f;
-  opacity: 0.6;
+  color: rgba(26, 27, 31, 0.6);
   text-decoration: none;
 }
 
@@ -258,16 +256,14 @@ textarea {
 }
 
 .footer-link a {
-  color: #1a1b1f;
-  opacity: 0.6;
+  color: rgba(26, 27, 31, 0.6);
   font-weight: 300;
   text-decoration: none;
 }
 
 .footer-info,
 .footer-info a {
-  color: #1a1b1f;
-  opacity: 0.6;
+  color: rgba(26, 27, 31, 0.6);
   font-weight: 300;
 }
 
