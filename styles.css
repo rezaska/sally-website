@@ -310,4 +310,6 @@ textarea {
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   background-color: rgba(26, 27, 31, 0.6);
+  width: 3rem !important;
+  height: 3rem !important;
 }
