@@ -48,7 +48,7 @@ body {
 
 main {
   min-height: 100%;
-  margin-bottom: -50px;
+  /* margin-bottom: -50px; */
 }
 
 footer {
@@ -304,7 +304,7 @@ textarea {
 /* Carousel */
 .carousel-image {
   height: 700px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .carousel-control-next-icon,
